@@ -20,7 +20,15 @@
     </engines>
   
     <platform name="android">
-            <hook type="before_compile" src="hooks/removeAndroidADPermission.js"/>
+
+        <edit-config file="AndroidManifest.xml" target="/manifest" mode="merge">
+                <manifest xmlns:tools="http://schemas.android.com/tools" />
+        </edit-config>
+
+        <config-file target="AndroidManifest.xml" parent="/manifest">
+                <uses-permission android:name="com.google.android.gms.permission.AD_ID" tools:node="remove"/>
+        </config-file>
+
     </platform>
 
 </plugin>
