@@ -3,7 +3,7 @@
   "version": "1.0.1",
   "description": "A Cordova plugin for the Construct Master Collection to implement advertisement compliance for applications in Google Play's Designed for Families programs.",
   "cordova": {
-    "id": "chadori-mobile-ad-families-programs",
+    "id": "cordova-plugin-remove-ad-permission",
     "platforms": [
       "android"
     ]
