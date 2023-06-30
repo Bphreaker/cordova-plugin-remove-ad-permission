@@ -1,7 +1,7 @@
 {
   "name": "cordova-plugin-remove-ad-permission",
   "version": "1.0.1",
-  "description": "A Cordova plugin for the Construct Master Collection to implement advertisement compliance for applications in Google Play's Designed for Families programs.",
+  "description": "A Cordova plugin to remove Android AD ID permission from App Manifest file",
   "cordova": {
     "id": "cordova-plugin-remove-ad-permission",
     "platforms": [
@@ -10,13 +10,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Chadori/Construct-Master-Collection.git"
+    "url": "git+https://github.com/Bphreaker/cordova-plugin-remove-ad-permission.git"
   },
   "keywords": [
     "construct-master-collection",
     "ads",
     "ad-id",
-    "designed-for-families-programs",
     "ironsource",
     "google",
     "admob",
@@ -27,13 +26,13 @@
   "engines": [
     {
       "name": "cordova",
-      "version": ">=6.5.0"
+      "version": ">=6.4.0"
     }
   ],
   "author": "Chadori",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Chadori/Construct-Master-Collection/issues"
+    "url": "https://github.com/Bphreaker/cordova-plugin-remove-ad-permission/issues"
   },
-  "homepage": "https://github.com/Chadori/Construct-Master-Collection"
+  "homepage": "https://github.com/Bphreaker/cordova-plugin-remove-ad-permission"
 }
