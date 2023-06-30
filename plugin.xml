@@ -4,7 +4,7 @@
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
 
-    id="chadori-mobile-ad-families-programs" version="1.0.1">
+    id="cordova-plugin-remove-ad-permission" version="1.0.1">
 
     <name>Mobile Ad Families Programs</name>
     <description>A Cordova plugin for the Construct Master Collection to implement advertisement compliance for applications in Google Play's Designed for Families programs.</description>
